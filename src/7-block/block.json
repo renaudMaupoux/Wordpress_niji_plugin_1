@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "name": "new-gutenberg-block/url",
+  "name": "new-gutenberg-block/button",
   "version": "1.0",
-  "title": "6. Un bouton stylé",
+  "title": "7. Button",
   "icon": "edit",
   "category": "text",
-  "description": "Un bloc éditable avec le composant Richtext",
+  "description": "Un bloc éditable avec Un bouton",
   "supports": {
 	"html": false
   },
@@ -15,6 +15,9 @@
 	  "type": "string",
 	  "source": "text",
 	  "selector": "a"
+	},
+	"alignment": {
+	  "type": "string"
 	},
 	"url": {
 	  "type": "string",

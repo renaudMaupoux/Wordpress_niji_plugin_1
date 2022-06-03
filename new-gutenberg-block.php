@@ -27,5 +27,6 @@ function gutenberg_block_block_init() {
 	register_block_type( __DIR__ . '/build/4-block' );
 	register_block_type( __DIR__ . '/build/5-block' );
 	register_block_type( __DIR__ . '/build/6-block' );
+	register_block_type( __DIR__ . '/build/7-block' );
 }
 add_action( 'init', 'gutenberg_block_block_init' );

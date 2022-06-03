@@ -16,9 +16,6 @@
 	  "source": "text",
 	  "selector": "a"
 	},
-	"alignment": {
-	  "type": "string"
-	},
 	"url": {
 	  "type": "string",
 	  "source": "attribute",
