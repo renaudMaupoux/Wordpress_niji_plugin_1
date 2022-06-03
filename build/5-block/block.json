@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "new-gutenberg-block/alert",
+  "version": "1.0",
+  "title": "5. Des encart colorés avec pictos",
+  "icon": "edit",
+  "category": "text",
+  "description": "Un bloc éditable avec le composant Richtext et des pictos",
+  "supports": {
+	"html": false
+  },
+  "attributes": {
+	"content": {
+	  "type": "string",
+	  "source": "html",
+	  "selector": ".content"
+	},
+	"alignment": {
+	  "type": "string"
+	},
+	"type": {
+	  "type": "string",
+	  "default": "advice"
+	}
+  },
+  "textdomain": "new-gutenberg-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

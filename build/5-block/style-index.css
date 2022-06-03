@@ -1,0 +1,30 @@
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/5-block/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+.wp-block-new-gutenberg-block-alert {
+  padding: 15px;
+  border-left: 5px solid;
+  border-radius: 4px;
+  color: white;
+}
+.wp-block-new-gutenberg-block-alert p:last-child {
+  margin-bottom: 0;
+}
+.wp-block-new-gutenberg-block-alert.is-advice {
+  background: #83BD71;
+  border-color: #51893f;
+}
+.wp-block-new-gutenberg-block-alert.is-warning {
+  background: #FFC334;
+  border-color: #cd9000;
+}
+.wp-block-new-gutenberg-block-alert.is-avoid {
+  background: #FF2952;
+  border-color: #c20025;
+}
+.wp-block-new-gutenberg-block-alert.is-pettype {
+  background: #0066ff;
+  border-color: #003d99;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

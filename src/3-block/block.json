@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "new-gutenberg-block/richtext-multiline",
+  "version": "1.0",
+  "title": "3. Richtext multiline",
+  "icon": "",
+  "category": "text",
+  "description": "Un bloc éditable avec le composant Richtext",
+  "supports": {
+	"html": false
+  },
+  "attributes": {
+	"content": {
+	  "type": "string",
+	  "source": "html",
+	  "selector": ".content"
+	}
+  },
+  "textdomain": "new-gutenberg-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

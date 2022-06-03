@@ -1,0 +1,1 @@
+{"version":3,"file":"3-block/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://new-gutenberg-block/./src/3-block/editor.scss"],"sourcesContent":[".wp-block-create-block-new-gutenberg-block {\n\tborder: 1px dotted #f00;\n}\n"],"names":[],"sourceRoot":""}

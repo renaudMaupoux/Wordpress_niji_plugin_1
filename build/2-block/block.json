@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "new-gutenberg-block/richtext",
+  "version": "1.0",
+  "title": "2. Richtext",
+  "icon": "edit",
+  "category": "text",
+  "description": "Un bloc éditable avec le composant Richtext",
+  "supports": {
+	"html": false
+  },
+  "attributes": {
+	"content": {
+	  "type": "string",
+	  "source": "html",
+	  "selector": ".content"
+	}
+  },
+  "textdomain": "new-gutenberg-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

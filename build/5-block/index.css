@@ -1,0 +1,20 @@
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/5-block/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+.new-gutenberg-block-toolbar-green {
+  color: #83BD71;
+}
+
+.new-gutenberg-block-toolbar-yellow {
+  color: #FFC334;
+}
+
+.new-gutenberg-block-toolbar-red {
+  color: #FF2952;
+}
+
+.new-gutenberg-block-toolbar-blue {
+  color: #0066ff;
+}
+
+/*# sourceMappingURL=index.css.map*/
